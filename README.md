@@ -40,15 +40,15 @@ NEXTAUTH_URL=http://localhost:3000
 
 **Generate NEXTAUTH_SECRET:**
 Generate a secure secret and add it to your environment variables.
-### Option 1: OpenSSL
+**Option 1: OpenSSL**
 ```bash
 openssl rand -base64 32
 ```
-### Option 2: Node.js(VS code/CMD)
+**Option 2: Node.js(VS code/CMD)**
 ```bash
 node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"
 ```
-### Option 3: PowerShell
+**Option 3: PowerShell**
 ```bash
 [Convert]::ToBase64String((1..32 | ForEach-Object { Get-Random -Maximum 256 }))
 ```
