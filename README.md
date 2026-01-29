@@ -4,7 +4,7 @@ A production-ready Next.js starter with complete authentication system using Mon
 
 ## ✨ Features
 
-- ⚡ **Next.js 14** with App Router
+- ⚡ **Next.js 16** with App Router
 - 🔐 **Complete Authentication System** (Register, Login, Logout)
 - 🗄️ **MongoDB** integration with Mongoose
 - 🔑 **NextAuth.js** for session management
